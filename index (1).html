@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Manos a la obra – construir juntos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Hanken+Grotesk:wght@300;400;600;700&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F1E5;--surface:#FFFBF2;--ink:#2B2620;--muted:#5E574C;--line:#DDD3BC;--sand:#EFE3B9;--olive:#C5BC7C;--sage:#D5DDC2;--green:#AFC17C;--lime:#D9E6A0;--peach:#EFB99E;--sky:#DEE5F2;--terra:#B5654D;--terra2:#C97B63;--brown:#2B2620;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1F1B16;--surface:#2B2620;--ink:#F6F1E5;--muted:#C4BBA8;--line:#463F33}}
+:root[data-theme="dark"]{--bg:#1F1B16;--surface:#2B2620;--ink:#F6F1E5;--muted:#C4BBA8;--line:#463F33}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px;color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.06rem/1.65 "Hanken Grotesk","Segoe UI",system-ui,sans-serif}
+h1,h2,h3{font-family:'Dotuda',Fraunces,Georgia,"Times New Roman",serif;font-weight:300;line-height:1.08;margin:0 0 .7rem;letter-spacing:-.015em}
+h1{font-size:clamp(2.7rem,7.2vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.4vw,3.1rem)}
+h3{font-size:1.3rem;font-weight:500;letter-spacing:0}
+p{margin:0 0 1rem;max-width:60ch}
+a{color:var(--terra)}
+:focus-visible{outline:3px solid var(--terra2);outline-offset:3px}
+header{position:sticky;top:0;z-index:30;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:.55rem clamp(1rem,4vw,3.5rem)}
+.brand{display:flex;gap:.7rem;align-items:center;text-decoration:none;color:var(--ink)}
+.brand b{width:42px;height:42px;border-radius:50%;background:var(--terra2);color:#fff;display:grid;place-items:center;font-weight:700;font-size:1.2rem;transition:transform .4s}
+.brand img{display:block;border-radius:50%;transition:transform .35s}.brand:hover img{transform:rotate(-8deg) scale(1.05)}.lh{width:64px;height:64px}.lf{width:min(190px,100%);height:auto}
+.brand span{display:grid;line-height:1.1;font-size:1.4rem}
+.brand small{font-size:.68rem;letter-spacing:.2em;color:var(--muted);text-transform:uppercase}
+nav{display:flex;align-items:center;gap:.3rem}
+nav ul{display:flex;gap:.2rem;list-style:none;margin:0;padding:0}
+nav a.l{display:block;padding:.45rem .9rem;border-radius:99px;text-decoration:none;color:var(--ink);transition:background .25s}
+nav a.l:hover{background:var(--sand);color:#2B2620}
+.btn{display:inline-block;border:1.5px solid var(--terra);background:var(--terra);color:#fff;padding:.8rem 1.5rem;font:600 1rem "Hanken Grotesk",sans-serif;border-radius:6px;cursor:pointer;text-decoration:none;transition:transform .2s,background .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 0 -2px rgba(43,38,32,.25);background:#A3563F}
+.btn.ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:rgba(255,255,255,.14)}
+.btn.pill{border-radius:99px;padding:.65rem 1.3rem}
+#menuBtn{display:none}
+.hero{position:relative;min-height:calc(100vh - 76px);min-height:calc(100svh - 76px);background:var(--brown);color:#fff;display:flex;align-items:flex-end;overflow:hidden}
+.hero .ph{position:absolute;right:0;top:0;bottom:0;width:72%;background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAVQB1IDASIAAhEBAxEB/8QAGwABAAMBAQEBAAAAAAAAAAAAAAUGBwQDAgH/xABNEAABAwMBBQMIBwQHBgUFAAABAAIDBAURBhIhMUFRE2FxBxQiMoGRobEVI0JSYnLBNoKy0RYzQ3Oi4fAXNDV0ksIkJVNU8TdjZXWj/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAIDBAUBBgf/xAA8EQACAQMCAwUGBQIFBAMAAAAAAQIDBBEhMRJBUQUTYXGBIjKhscHwFDOR0eEjNBUkQlLxBoKiwkNicv/aAAwDAQ```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Manos a la obra – construir juntos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="[https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Hanken+Grotesk:wght@300;400;600;700&family=Gaegu:wght@400;700&display=swap](https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Hanken+Grotesk:wght@300;400;600;700&family=Gaegu:wght@400;700&display=swap)" rel="stylesheet">
+<style>
+:root{--bg:#F6F1E5;--surface:#FFFBF2;--ink:#2B2620;--muted:#5E574C;--line:#DDD3BC;--sand:#EFE3B9;--olive:#C5BC7C;--sage:#D5DDC2;--green:#AFC17C;--lime:#D9E6A0;--peach:#EFB99E;--sky:#DEE5F2;--terra:#B5654D;--terra2:#C97B63;--brown:#2B2620;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1F1B16;--surface:#2B2620;--ink:#F6F1E5;--muted:#C4BBA8;--line:#463F33}}
+:root[data-theme="dark"]{--bg:#1F1B16;--surface:#2B2620;--ink:#F6F1E5;--muted:#C4BBA8;--line:#463F33}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px;color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.06rem/1.65 "Hanken Grotesk","Segoe UI",system-ui,sans-serif}
+h1,h2,h3{font-family:'Dotuda',sans-serif;font-weight:300;line-height:1.08;margin:0 0 .7rem;letter-spacing:-.015em}
+h1{font-size:clamp(2.7rem,7.2vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.4vw,3.1rem)}
+h3{font-size:1.3rem;font-weight:500;letter-spacing:0}
+p{margin:0 0 1rem;max-width:60ch}
+a{color:var(--terra)}
+:focus-visible{outline:3px solid var(--terra2);outline-offset:3px}
+header{position:sticky;top:0;z-index:30;background
